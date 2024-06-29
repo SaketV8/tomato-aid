@@ -1,0 +1,43 @@
+.banner {
+    /* background-color: #232634; */
+    background-color: #ffcc00;
+    /* color: #232634; */
+    color: var(--clr-slate800);
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow: hidden;
+  }
+  
+  .banner__content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+  }
+  
+  .banner__close__btn {
+    display: block;
+    color: var(--clr-slate800);
+    width: var(--size-base);
+    height: var(--size-base);
+    margin-left: 1rem;
+  }
+  
+  /* xs */
+  @media (min-width: 475px) {
+    /* .container {
+        max-width: 475px;
+      } */
+  }
+  
+  /* sm */
+  @media (min-width: 640px) {
+    /* .container {
+        max-width: 640px;
+      } */
+  }
+  

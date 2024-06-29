@@ -1,0 +1,86 @@
+.title {
+    font-size: xx-large;
+    font-weight: 700;
+  }
+
+  .btn {
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: var(--clr-rose);
+    color: var(--clr-light);
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
+      0 6px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px var(--clr-rose);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .btn:hover,
+  .btn:focus,
+  .btn:active {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(225, 29, 72, 0.25),
+      0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
+  }
+
+/* Form.module.css */
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.inputField {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #0f172a;
+}
+
+.submitButton {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.loginButton {
+  padding: 10px;
+  font-size: 16px;
+  color: #007bff;
+  background-color: transparent;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.loginButton:hover {
+  background-color: #007bff;
+  color: white;
+}
